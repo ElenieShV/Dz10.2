@@ -1,5 +1,5 @@
 def first_word(text):
-    text = text.lstrip(" .")
+    text = text.lstrip(" .,!?")
     word = ""
     for ch in text:
         if ch.isalpha() or ch == "'":
